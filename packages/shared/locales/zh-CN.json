@@ -363,7 +363,8 @@
         },
         "deleteProfile": {
             "title": "删除配置文件",
-            "confirmation": "您确定要删除此配置文件吗？此操作无法撤消。"
+            "confirmation": "您确定要删除此配置文件吗？此操作无法撤消。",
+            "typePassword": "请输入您的钱包密码进行确认。"
         },
         "diagnostics": {
             "title": "诊断程序",
@@ -569,7 +570,7 @@
     },
     "dates": {
         "today": "今日",
-        "yesterday": "Yesterday",
+        "yesterday": "昨天",
         "daysAgo": "{time, plural, one {# 天} other {# 天}} 前",
         "weeksAgo": "{time, plural, one {# 周} other {# 周}} 前",
         "monthsAgo": "{time, plural, one {# 月} other {# 月}} 前",
@@ -619,7 +620,11 @@
             "length": "您的账户名称不能超过 {length, plural, one {1 个字符} other {# 字符}}。",
             "empty": "您必须使用您的最新帐户才能创建一个新帐户。",
             "notEmpty": "您必须在删除此帐户之前转账您的余额。",
-            "duplicate": "具有此名称的帐户已存在。"
+            "duplicate": "具有此名称的帐户已存在。",
+            "tilde": "配置名称不能以“~”字符开头。",
+            "control": "配置名称不能包含控制字符。",
+            "startDot": "配置名称不能以 '.' 字符开头。",
+            "chars": "配置名称不能包含以下字符 <>:\"/\\|?*"
         },
         "send": {
             "addressLength": "地址的长度应该是 {length, plural,one {1 个字符} other {# 个字符}}。",
@@ -627,8 +632,10 @@
             "amountNoFloat": "如果单位是 `i`，你不能使用小数点。",
             "amountInvalidFormat": "金额似乎是一个无效的数字。",
             "amountZero": "金额必须大于零。",
-            "wrongAddressFormat": "地址以前缀 {prefix} 开始。",
+            "wrongAddressPrefix": "地址以前缀 {prefix} 开始。",
+            "wrongAddressFormat": "地址格式不正确。",
             "insufficientFunds": "该账户资金不足。",
+            "noToAccount": "您尚未选择一个账户来发送资金。",
             "sendingDust": "您的发送不能小于 1 Mi。",
             "leavingDust": "您的地址余额不能少于1Mi。"
         },

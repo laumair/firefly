@@ -363,7 +363,8 @@
         },
         "deleteProfile": {
             "title": "Suprimeix el perfil",
-            "confirmation": "Esteu segur que voleu suprimir aquest perfil? Aquesta operació no es pot desfer."
+            "confirmation": "Esteu segur que voleu suprimir aquest perfil? Aquesta operació no es pot desfer.",
+            "typePassword": "Escriu la contrasenya de la teva cartera per confirmar-la."
         },
         "diagnostics": {
             "title": "Diagnòstics",
@@ -619,7 +620,11 @@
             "length": "El nom del compte no pot superar {length, plural, one {1 caràcter} other {# caràcters}}.",
             "empty": "Heu d'utilitzar el vostre darrer compte abans de crear-ne un de nou.",
             "notEmpty": "Heu de transferir el saldo abans de suprimir aquest compte.",
-            "duplicate": "Ja existeix un compte amb aquest nom."
+            "duplicate": "Ja existeix un compte amb aquest nom.",
+            "tilde": "A profile name can't start with the '~' character.",
+            "control": "A profile name can't contain a control character.",
+            "startDot": "A profile name can't start with the '.' character.",
+            "chars": "A profile name can't contain the following characters <>:\"/\\|?*"
         },
         "send": {
             "addressLength": "Les adreces han de tenir {length, plural, one {1 caràcter} other {# caràcters}} més.",
@@ -627,8 +632,10 @@
             "amountNoFloat": "Si les unitats són `i` no podeu fer servir decimals.",
             "amountInvalidFormat": "Sembla que l’import no és vàlid.",
             "amountZero": "L'import ha de ser superior a 0.",
-            "wrongAddressFormat": "Les adreces comencen amb el prefix {prefix}.",
+            "wrongAddressPrefix": "Addresses start with the prefix {prefix}.",
+            "wrongAddressFormat": "The address is not correctly formatted.",
             "insufficientFunds": "Aquest compte no té fons suficients.",
+            "noToAccount": "You have not selected an account to send the funds to.",
             "sendingDust": "No es possible enviar menys d'1 Mi.",
             "leavingDust": "No és possible deixar menys d'1 Mi a la teva adreça."
         },

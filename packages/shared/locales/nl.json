@@ -363,7 +363,8 @@
         },
         "deleteProfile": {
             "title": "Profiel verwijderen",
-            "confirmation": "Weet je zeker dat je dit profiel wil verwijderen? Deze handeling kan niet ongedaan worden gemaakt."
+            "confirmation": "Weet je zeker dat je dit profiel wil verwijderen? Deze handeling kan niet ongedaan worden gemaakt.",
+            "typePassword": "Voer het wachtwoord van uw portemonnee in om te bevestigen."
         },
         "diagnostics": {
             "title": "Foutrapportages",
@@ -619,7 +620,11 @@
             "length": "Uw accountnaam mag niet langer zijn dan {length, plural, one {1 karakter} other {# karakters}}.",
             "empty": "U moet uw laatste account gebruiken voordat u een nieuwe aanmaakt.",
             "notEmpty": "U moet het openstaande saldo overboeken voordat u deze rekening verwijdert.",
-            "duplicate": "Een account met deze naam bestaat al."
+            "duplicate": "Een account met deze naam bestaat al.",
+            "tilde": "Een profielnaam kan niet beginnen met het teken '~'.",
+            "control": "Een profielnaam mag geen controleteken bevatten.",
+            "startDot": "Een profielnaam kan niet beginnen met het '.' karakter.",
+            "chars": "Een profielnaam mag de volgende tekens niet bevatten <>:\"/\\×?*"
         },
         "send": {
             "addressLength": "Adressen moeten {length, plural, one {1 teken} other {# tekens}} lang zijn.",
@@ -627,8 +632,10 @@
             "amountNoFloat": "Als de eenheden `i` zijn, kunt u geen cijfers achter de comma gebruiken.",
             "amountInvalidFormat": "De opgegeven waarde lijkt een ongeldige waarde te zijn.",
             "amountZero": "De waarde moet groter zijn dan 0.",
-            "wrongAddressFormat": "Adressen beginnen met {prefix}.",
+            "wrongAddressPrefix": "Adressen beginnen met het voorvoegsel {prefix}.",
+            "wrongAddressFormat": "Het adres is niet correct opgemaakt.",
             "insufficientFunds": "Deze rekening heeft onvoldoende saldo.",
+            "noToAccount": "U heeft geen account geselecteerd om de bedragen naar toe te sturen.",
             "sendingDust": "U kunt niet minder dan 1 Mi verzenden.",
             "leavingDust": "U kunt niet minder dan 1 Mi op uw rekening achterlaten."
         },

@@ -363,7 +363,8 @@
         },
         "deleteProfile": {
             "title": "Eliminar perfil",
-            "confirmation": "¿Está seguro que desea eliminar este perfil? Esta operación no se puede deshacer."
+            "confirmation": "¿Está seguro que desea eliminar este perfil? Esta operación no se puede deshacer.",
+            "typePassword": "Escribe la contraseña de tu cartera para confirmar."
         },
         "diagnostics": {
             "title": "Diagnóstico",
@@ -619,7 +620,11 @@
             "length": "Tu nombre de cuenta no puede tener más de {length, plural, one {1 carácter} other {# caracteres}}.",
             "empty": "Debes usar tu última cuenta antes de crear una nueva.",
             "notEmpty": "Debes transferir tu saldo antes de eliminar esta cuenta.",
-            "duplicate": "Ya existe una cuenta con este nombre."
+            "duplicate": "Ya existe una cuenta con este nombre.",
+            "tilde": "A profile name can't start with the '~' character.",
+            "control": "A profile name can't contain a control character.",
+            "startDot": "A profile name can't start with the '.' character.",
+            "chars": "A profile name can't contain the following characters <>:\"/\\|?*"
         },
         "send": {
             "addressLength": "Las direcciones deben tener {length, plural, one {1 carácter} other {# caracteres}} de largo.",
@@ -627,8 +632,10 @@
             "amountNoFloat": "Si las unidades son 'i' no puedes usar lugares decimales.",
             "amountInvalidFormat": "La cantidad parece ser un número no válido.",
             "amountZero": "La cantidad debe ser mayor que 0.",
-            "wrongAddressFormat": "Las direcciones comienzan con el prefijo {prefix}.",
+            "wrongAddressPrefix": "Addresses start with the prefix {prefix}.",
+            "wrongAddressFormat": "The address is not correctly formatted.",
             "insufficientFunds": "Esta cuenta no tiene fondos suficientes.",
+            "noToAccount": "You have not selected an account to send the funds to.",
             "sendingDust": "No puedes enviar menos de 1 Mi.",
             "leavingDust": "No puede dejar menos de 1 Mi en su dirección."
         },

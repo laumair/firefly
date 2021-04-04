@@ -363,7 +363,8 @@
         },
         "deleteProfile": {
             "title": "사용자 삭제",
-            "confirmation": "이 사용자를 삭제할까요? 이 작업은 취소할 수 없습니다."
+            "confirmation": "이 사용자를 삭제할까요? 이 작업은 취소할 수 없습니다.",
+            "typePassword": "계정을 삭제하려면 지갑 비밀번호를 입력하세요."
         },
         "diagnostics": {
             "title": "진단",
@@ -619,7 +620,11 @@
             "length": "계정 이름은 {length, plural, other {#글자}}보다 길 수 없습니다.",
             "empty": "새 계정을 만들기 전에 아직 사용하지 않은 기존 계정을 사용해야 합니다.",
             "notEmpty": "이 계정을 삭제하려면 계정에 남은 잔고를 비워야 합니다.",
-            "duplicate": "같은 이름의 계정이 이미 존재합니다."
+            "duplicate": "같은 이름의 계정이 이미 존재합니다.",
+            "tilde": "사용자 이름은 `~`로 시작할 수 없습니다.",
+            "control": "사용자 이름은 제어 문자를 포함할 수 없습니다.",
+            "startDot": "사용자 이름은 '.'로 시작할 수 없습니다.",
+            "chars": "사용자 이름은 <>:\"/\\|?*을 포함할 수 없습니다."
         },
         "send": {
             "addressLength": "주소는 {length, plural, other {#글자}}여야 합니다.",
@@ -627,8 +632,10 @@
             "amountNoFloat": "단위가 'i'이면 소수점을 사용할 수 없습니다.",
             "amountInvalidFormat": "금액에 잘못된 내용이 있습니다.",
             "amountZero": "보내는 양은 0보다 커야 합니다.",
-            "wrongAddressFormat": "주소는 앞에 {prefix} 로 시작합니다.",
+            "wrongAddressPrefix": "주소는 {prefix}로 시작합니다.",
+            "wrongAddressFormat": "주소가 형식에 맞지 않습니다.",
             "insufficientFunds": "계정에 잔고가 부족합니다.",
+            "noToAccount": "보낼 계정을 선택하지 않았습니다.",
             "sendingDust": "1 Mi 미만은 보낼 수 없습니다.",
             "leavingDust": "주소에 1 Mi 미만을 남겨놓을 수 없습니다."
         },

@@ -363,7 +363,8 @@
         },
         "deleteProfile": {
             "title": "حذف الملف الشخصي",
-            "confirmation": "هل أنت متأكد من أنك تريد حذف هذا الملف الشخصي؟ لا يمكن التراجع عن هذه العملية."
+            "confirmation": "هل أنت متأكد من أنك تريد حذف هذا الملف الشخصي؟ لا يمكن التراجع عن هذه العملية.",
+            "typePassword": "اكتب كلمة مرور محفظتك للتأكيد."
         },
         "diagnostics": {
             "title": "التشخيص",
@@ -569,7 +570,7 @@
     },
     "dates": {
         "today": "اليوم",
-        "yesterday": "Yesterday",
+        "yesterday": "الأمس",
         "daysAgo": "منذ {time, plural, one {# يوم} other {# أيام}}",
         "weeksAgo": "منذ {time, plural, one {# اسبوع} other {# اسابيع}}",
         "monthsAgo": "منذ {time, plural, one {# شهر} other {# اشهر}}",
@@ -619,7 +620,11 @@
             "length": "لا يجب ان يكون اسم حسابك اطول من {length, plural, one {1 حرف} other {# احرف}}.",
             "empty": "يجب عليك استخدام حسابك الأخير قبل إنشاء حساب جديد.",
             "notEmpty": "يجب عليك نقل رصيدك قبل حذف هذا الحساب.",
-            "duplicate": "يوجد حساب بهذا الاسم مسبقاً."
+            "duplicate": "يوجد حساب بهذا الاسم مسبقاً.",
+            "tilde": "A profile name can't start with the '~' character.",
+            "control": "A profile name can't contain a control character.",
+            "startDot": "A profile name can't start with the '.' character.",
+            "chars": "A profile name can't contain the following characters <>:\"/\\|?*"
         },
         "send": {
             "addressLength": "يجب على العناوين ان تكون بطول {length, plural, one {1 حرف} other {# احرف}}.",
@@ -627,8 +632,10 @@
             "amountNoFloat": "إذا كانت الوحدات 'i` لا يمكنك استخدام الأماكن العشرية.",
             "amountInvalidFormat": "يبدو أن المبلغ رقم غير صالح.",
             "amountZero": "يجب أن يكون المبلغ أكبر من 0.",
-            "wrongAddressFormat": "تبدأ العناوين بالبادئة {prefix}.",
+            "wrongAddressPrefix": "Addresses start with the prefix {prefix}.",
+            "wrongAddressFormat": "The address is not correctly formatted.",
             "insufficientFunds": "هذا الحساب لا يملك الأموال الكافية.",
+            "noToAccount": "You have not selected an account to send the funds to.",
             "sendingDust": "لا يمكنك إرسال أقل من 1 Mi.",
             "leavingDust": "لا يمكنك ترك أقل من 1 Mi على عنوانك."
         },

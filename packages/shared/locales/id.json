@@ -363,7 +363,8 @@
         },
         "deleteProfile": {
             "title": "Hapus profil",
-            "confirmation": "Apakah Anda yakin ingin menghapus profil ini? Operasi ini tidak dapat dibatalkan. "
+            "confirmation": "Apakah Anda yakin ingin menghapus profil ini? Operasi ini tidak dapat dibatalkan. ",
+            "typePassword": "Type your wallet password to confirm."
         },
         "diagnostics": {
             "title": "Diagnostik",
@@ -619,7 +620,11 @@
             "length": "Nama akun Anda tidak boleh lebih dari {length, plural, one {1 karakter} other {# karakter}}.",
             "empty": "Anda harus sudah menggunakan akun Anda saat ini sebelum Anda dapat membuat yang baru.",
             "notEmpty": "Anda harus mentransfer saldo Anda sebelum menghapus akun ini.",
-            "duplicate": "Akun dengan nama tersebut sudah ada."
+            "duplicate": "Akun dengan nama tersebut sudah ada.",
+            "tilde": "A profile name can't start with the '~' character.",
+            "control": "A profile name can't contain a control character.",
+            "startDot": "A profile name can't start with the '.' character.",
+            "chars": "A profile name can't contain the following characters <>:\"/\\|?*"
         },
         "send": {
             "addressLength": "Alamat harus terdiri dari {length, plural, one {1 karakter} other {# karakter}}.",
@@ -627,8 +632,10 @@
             "amountNoFloat": "Jika unitnya adalah `i` Anda tidak dapat menggunakan tempat desimal.",
             "amountInvalidFormat": "Jumlah tersebut sepertinya merupakan angka yang tidak valid.",
             "amountZero": "Jumlah harus lebih besar dari 0.",
-            "wrongAddressFormat": "Alamat dimulai dengan awalan {prefix}.",
+            "wrongAddressPrefix": "Addresses start with the prefix {prefix}.",
+            "wrongAddressFormat": "The address is not correctly formatted.",
             "insufficientFunds": "This account has insufficient funds.",
+            "noToAccount": "You have not selected an account to send the funds to.",
             "sendingDust": "You cannot send less than 1 Mi.",
             "leavingDust": "You cannot leave less than 1 Mi on your address."
         },

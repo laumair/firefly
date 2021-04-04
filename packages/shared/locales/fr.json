@@ -363,7 +363,8 @@
         },
         "deleteProfile": {
             "title": "Supprimer le profil",
-            "confirmation": "Êtes-vous sûr de vouloir supprimer ce profil? Cette opération ne peut pas être annulée."
+            "confirmation": "Êtes-vous sûr de vouloir supprimer ce profil? Cette opération ne peut pas être annulée.",
+            "typePassword": "Saisissez le mot de passe de votre portefeuille pour confirmer."
         },
         "diagnostics": {
             "title": "Diagnostiques",
@@ -619,7 +620,11 @@
             "length": "Le nom de votre compte ne doit pas contenir plus de {length, plural, one {1 caractère} other {# caractères}}.",
             "empty": "Vous devez utiliser votre dernier compte avant d'en créer un nouveau.",
             "notEmpty": "Vous devez transférer votre solde avant de supprimer ce compte.",
-            "duplicate": "Un compte avec ce nom existe déjà."
+            "duplicate": "Un compte avec ce nom existe déjà.",
+            "tilde": "Un nom de profil ne peut pas commencer par le caractère '~'.",
+            "control": "Un nom de profil ne peut pas contenir de caractère de contrôle.",
+            "startDot": "Un nom de profil ne peut pas commencer par un point.",
+            "chars": "Un nom de profil ne peut pas contenir les caractères suivants <>:\"/\\|?*"
         },
         "send": {
             "addressLength": "Les adresses devraient comporter {length, plural, one {1 caractère} other {# caractères}}.",
@@ -627,8 +632,10 @@
             "amountNoFloat": "Si les unités sont `i`, vous ne pouvez pas utiliser de décimales.",
             "amountInvalidFormat": "Le montant semble être un nombre invalide.",
             "amountZero": "Le montant doit être supérieur à 0.",
-            "wrongAddressFormat": "Les adresses commencent par le préfixe {prefix}.",
+            "wrongAddressPrefix": "Les adresses commencent par le préfixe {prefix}.",
+            "wrongAddressFormat": "L'adresse n'est pas correctement formatée.",
             "insufficientFunds": "Ce compte ne dispose pas de fonds suffisants.",
+            "noToAccount": "Vous n'avez pas sélectionné de compte vers lequel envoyer les fonds.",
             "sendingDust": "Vous ne pouvez pas envoyer moins de 1 Mi.",
             "leavingDust": "Vous ne pouvez pas laisser moins de 1 Mi sur votre adresse."
         },

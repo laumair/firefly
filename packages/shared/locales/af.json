@@ -1,7 +1,7 @@
 {
     "views": {
         "onboarding1": {
-            "title": "Stuur, ontvang & bestuur jou IOTA",
+            "title": "Stuur, ontvang en bestuur u IOTA-tokens",
             "body": "Firefly is die amptelike beursie van IOTA."
         },
         "legal": {
@@ -363,7 +363,8 @@
         },
         "deleteProfile": {
             "title": "Vee profiel uit",
-            "confirmation": "Is jy seker jy wil hierdie profiel uitvee? Hierdie bewerking kan nie ontdoen word nie."
+            "confirmation": "Is jy seker jy wil hierdie profiel uitvee? Hierdie bewerking kan nie ontdoen word nie.",
+            "typePassword": "Voer die wagwoord van jou beursie in om te bevestig."
         },
         "diagnostics": {
             "title": "Diagnostiek",
@@ -619,7 +620,11 @@
             "length": "Jou rekeningnaam mag nie langer as {length, plural, one {1 karakter} other {# karakters}} wees nie.",
             "empty": "Jy moet jou nuutste rekening gebruik voordat jy 'n nuwe een skep.",
             "notEmpty": "Jy moet jou saldo oordra voordat jy hierdie rekening uitvee.",
-            "duplicate": "'n Rekening met hierdie naam bestaan alreeds."
+            "duplicate": "'n Rekening met hierdie naam bestaan alreeds.",
+            "tilde": "'N Profielnaam kan nie met die' ~ 'karakter begin nie.",
+            "control": "'N Profielnaam kan nie 'n beheerkarakter bevat nie.",
+            "startDot": "'N Profielnaam kan nie begin met die'. ' karakter.",
+            "chars": "'N Profielnaam kan nie die volgende karakters bevat nie <>: \"/ \\ |? *"
         },
         "send": {
             "addressLength": "Adresse moet {length, plural, one {1 karakter} other {# karakters}} lank wees.",
@@ -627,8 +632,10 @@
             "amountNoFloat": "As eenhede 'i' is, kan jy nie desimale plekke gebruik nie.",
             "amountInvalidFormat": "Die bedrag lyk na 'n ongeldige nommer.",
             "amountZero": "Die bedrag moet groter as 0 wees.",
-            "wrongAddressFormat": "Adresse begin met die voorvoegsel {prefix}.",
+            "wrongAddressPrefix": "Adresse begin met die voorvoegsel {prefix}.",
+            "wrongAddressFormat": "Die adres is nie korrek geformateer nie.",
             "insufficientFunds": "Hierdie rekening het onvoldoende fondse.",
+            "noToAccount": "Jy het nie 'n rekening gekies om die fondse na te stuur nie.",
             "sendingDust": "Jy kan nie minder as 1 Mi. stuur nie.",
             "leavingDust": "Jy kan nie minder as 1 Mi op jou adres los nie."
         },

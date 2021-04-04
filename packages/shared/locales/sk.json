@@ -363,7 +363,8 @@
         },
         "deleteProfile": {
             "title": "Odstrániť profil",
-            "confirmation": "Naozaj chcete odstrániť tento profil? Túto akciu nie je možné vrátiť späť."
+            "confirmation": "Naozaj chcete odstrániť tento profil? Túto akciu nie je možné vrátiť späť.",
+            "typePassword": "Zadajte heslo svojej peňaženky pre potvrdenie."
         },
         "diagnostics": {
             "title": "Diagnostika",
@@ -619,7 +620,11 @@
             "length": "Názov vášho účtu nemôže byť dlhší ako {length, plural, one {1 znak} few {# znaky} other {# znakov}}.",
             "empty": "Musíte použiť svoj najnovší účet pred vytvorením nového.",
             "notEmpty": "Pred odstránením tohto účtu musíte previesť svoj zostatok.",
-            "duplicate": "Účet s týmto menom už existuje."
+            "duplicate": "Účet s týmto menom už existuje.",
+            "tilde": "A profile name can't start with the '~' character.",
+            "control": "A profile name can't contain a control character.",
+            "startDot": "A profile name can't start with the '.' character.",
+            "chars": "A profile name can't contain the following characters <>:\"/\\|?*"
         },
         "send": {
             "addressLength": "Adresy by mali mať dĺžku {length, plural, one {1 znak} other {# znakov}}.",
@@ -627,8 +632,10 @@
             "amountNoFloat": "Ak sú jednotky `i`, nemôžete použiť desatinné miesta.",
             "amountInvalidFormat": "Zdá sa, že čiastka je neplatné číslo.",
             "amountZero": "Hodnota musí byť vyššia ako 0.",
-            "wrongAddressFormat": "Adresy začínajú s predponou {prefix}.",
+            "wrongAddressPrefix": "Addresses start with the prefix {prefix}.",
+            "wrongAddressFormat": "The address is not correctly formatted.",
             "insufficientFunds": "Tento účet nemá dostatok prostriedkov.",
+            "noToAccount": "You have not selected an account to send the funds to.",
             "sendingDust": "Nemôžete odoslať menej ako 1 Mi.",
             "leavingDust": "Zostatok vašej adresy nemôže byť nižší ako 1 Mi."
         },

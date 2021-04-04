@@ -363,7 +363,8 @@
         },
         "deleteProfile": {
             "title": "Profili sil",
-            "confirmation": "Bu dosyayı silmek istiyor musunuz? Bu işlem geri alınamaz."
+            "confirmation": "Bu dosyayı silmek istiyor musunuz? Bu işlem geri alınamaz.",
+            "typePassword": "Doğrulama için lütfen cüzdan şifrenizi giriniz."
         },
         "diagnostics": {
             "title": "Tanılama",
@@ -541,7 +542,7 @@
         "noRecentHistory": "geçmiş yok",
         "transferSyncing": "Hesap senkronize ediliyor",
         "transferSelectingInputs": "Girişlerin seçimi",
-        "transferRemainderAddress": "Generating remainder deposit address",
+        "transferRemainderAddress": "Kalan mevduat adresi oluşturuluyor",
         "transferSigning": "İşlemin imzalanması",
         "transferPow": "PoW yapılıyor",
         "transferBroadcasting": "İşlem yayınlanıyor",
@@ -619,7 +620,11 @@
             "length": "Hesap adınız {length, plural, one {1 karakter} other {# karakter}}den büyük olamaz.",
             "empty": "Yenisini oluşturmadan önce en son hesabınızı kullanmalısınız.",
             "notEmpty": "Bu hesabı silmeden önce bakiyenizi transfer etmelisiniz.",
-            "duplicate": "Bu kullanıcı adıyla bir hesap zaten var."
+            "duplicate": "Bu kullanıcı adıyla bir hesap zaten var.",
+            "tilde": "Profile ismi '~' karakteri ile başlayamaz.",
+            "control": "Profil ismi bir kontrol karakteri içermemeli.",
+            "startDot": "Profile ismi '.' karakteri ile başlayamaz.",
+            "chars": "Profil ismi belirtilen karakterlerden birini içeremez: <>:\"/\\|?*"
         },
         "send": {
             "addressLength": "Adresler {length, plural, one {1 karakter} other {# karakter}} uzunluğunda olmalıdır.",
@@ -627,8 +632,10 @@
             "amountNoFloat": "Birimler \"i\" ise, ondalık basamakları kullanamazsınız.",
             "amountInvalidFormat": "Miktar geçersiz görünüyor.",
             "amountZero": "Toplam miktar 0'dan büyük olmalıdır",
-            "wrongAddressFormat": "Adresler {prefix} ön eki ile başlar.",
+            "wrongAddressPrefix": "Adresler {prefix} ön eki ile başlar.",
+            "wrongAddressFormat": "Adres doğru şekilde biçimlendirilmemiş.",
             "insufficientFunds": "Hesap bakiyesi yetersiz.",
+            "noToAccount": "Bakiyeyi göndermek için bir hesap seçmediniz.",
             "sendingDust": "1 Mi den daha az gönderim yapamazsınız.",
             "leavingDust": "Adresinizde 1 Mi'den az bırakamazsınız."
         },

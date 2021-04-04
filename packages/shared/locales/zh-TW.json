@@ -363,7 +363,8 @@
         },
         "deleteProfile": {
             "title": "刪除設定檔",
-            "confirmation": "是否確定要刪除此檔？此操作無法撤銷。"
+            "confirmation": "是否確定要刪除此檔？此操作無法撤銷。",
+            "typePassword": "Type your wallet password to confirm."
         },
         "diagnostics": {
             "title": "應用診斷",
@@ -619,7 +620,11 @@
             "length": "你的帳號長度不能超過 {length, plural, one {1 character} other {# 字符}}.",
             "empty": "您必須使用最後存在的帳戶，在您創建新的帳戶之前。",
             "notEmpty": "您必須先轉移餘額，才能刪除該帳戶。",
-            "duplicate": "相同名稱的帳戶已存在。"
+            "duplicate": "相同名稱的帳戶已存在。",
+            "tilde": "A profile name can't start with the '~' character.",
+            "control": "A profile name can't contain a control character.",
+            "startDot": "A profile name can't start with the '.' character.",
+            "chars": "A profile name can't contain the following characters <>:\"/\\|?*"
         },
         "send": {
             "addressLength": "地址應為 {length, plural, one {1 character} other {# 字符}} 長度",
@@ -627,8 +632,10 @@
             "amountNoFloat": "如果單位是“ i”，則不能使用小數位。",
             "amountInvalidFormat": "該金額是無效數字。",
             "amountZero": "金額必須大於0。",
-            "wrongAddressFormat": "地址必須以 {prefix} 為字首。",
+            "wrongAddressPrefix": "Addresses start with the prefix {prefix}.",
+            "wrongAddressFormat": "The address is not correctly formatted.",
             "insufficientFunds": "This account has insufficient funds.",
+            "noToAccount": "You have not selected an account to send the funds to.",
             "sendingDust": "You cannot send less than 1 Mi.",
             "leavingDust": "You cannot leave less than 1 Mi on your address."
         },

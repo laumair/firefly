@@ -363,7 +363,8 @@
         },
         "deleteProfile": {
             "title": "Excluir perfil",
-            "confirmation": "Tem certeza de que deseja excluir este perfil? Esta ação não pode ser desfeita."
+            "confirmation": "Tem certeza de que deseja excluir este perfil? Esta ação não pode ser desfeita.",
+            "typePassword": "Digite a senha da carteira para confirmar."
         },
         "diagnostics": {
             "title": "Diagnósticos",
@@ -619,7 +620,11 @@
             "length": "O nome da sua conta não pode ser maior que {length, plural, one {1 caractere} other {# carateres}}.",
             "empty": "Você deve usar sua conta mais recente antes de criar uma nova.",
             "notEmpty": "Você deve transferir seu saldo antes de apagar esta conta.",
-            "duplicate": "Uma conta com esse nome já existe."
+            "duplicate": "Uma conta com esse nome já existe.",
+            "tilde": "O nome do perfil não pode começar com o caractere '~'.",
+            "control": "O nome do perfil não pode conter um caractere de controle.",
+            "startDot": "O nome do perfil não pode começar com o caractere '.'.",
+            "chars": "O nome do perfil não pode conter os seguintes caracteres <>:\"/\\|?*"
         },
         "send": {
             "addressLength": "Endereços devem ser de pelo menos {length, plural, one {1 caractere} other {# caracteres}}.",
@@ -627,8 +632,10 @@
             "amountNoFloat": "Se as unidades são `i`, você não pode usar casas decimais.",
             "amountInvalidFormat": "O valor parece ser um número inválido.",
             "amountZero": "O valor deve ser maior que 0.",
-            "wrongAddressFormat": "Os endereços começam com o prefixo {prefix}.",
+            "wrongAddressPrefix": "Endereços começam com o prefixo {prefix}.",
+            "wrongAddressFormat": "O endereço não está formatado corretamente.",
             "insufficientFunds": "Esta conta não tem fundos suficientes.",
+            "noToAccount": "Você não selecionou uma conta para enviar os fundos.",
             "sendingDust": "Você não pode enviar menos de 1 Mi.",
             "leavingDust": "Você não pode deixar menos do que 1 Mi no seu endereço."
         },
