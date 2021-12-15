@@ -56,6 +56,8 @@ const errorMessages: {
     LedgerEssenceTooLarge: 'error.global.generic',
     // Dust output
     DustError: 'error.send.leavingDust',
+    // Participation
+    InvalidParticipations: 'error.participation.invalidParticipations'
 }
 
 export const getErrorMessage = (type: ErrorType | ValidatorErrorTypes): string => {

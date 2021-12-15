@@ -65,6 +65,9 @@ export enum ErrorType {
 
     // Dust output
     DustError = 'DustError',
+
+    // Participations
+    InvalidParticipations = 'InvalidParticipations',
 }
 
 export enum LedgerErrorType {
